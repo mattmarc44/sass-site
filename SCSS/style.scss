@@ -1,0 +1,139 @@
+body {
+    font-family: 'Staatliches', cursive;
+}
+
+$primary-brand: #edc;
+
+
+/*nav*/
+@import 'navbar';
+
+
+/*callout*/
+
+.callout-container {
+    height: 100vh;
+    background: url('../images/whiskey.jpg') no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron h1 {
+    color: white;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.container {
+    width: auto;
+    margin: 0;
+    padding: 0;
+}
+
+.callout p {
+    color: white;
+}
+
+.btn-success {
+    color: #fff;
+    background-color: #555;
+    border-color: #333;
+}
+
+
+/*sale alert*/
+
+.container-fluid {
+    /* padding-right: 15px; */
+    /* padding-left: 15px; */
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.col-xs-12 {
+    padding: 0 5vw;
+}
+
+.alert-warning {
+    color: #a06d16;
+    background-color: #090601;
+    border-color: transparent;
+}
+
+.alert {
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.alert a {
+    color: white;
+    text-decoration: none;
+}
+
+
+/*page headers*/
+
+.page-header {
+    padding-bottom: 9px;
+    margin: 40px 0 20px;
+    border-bottom: 4px solid;
+    text-align: center;
+}
+
+
+/*quotes*/
+blockquote {
+    padding: 10px 20px;
+    margin: 0 0 20px;
+    font-size: 17.5px;
+    border-left: none;
+}
+
+blockquote .small,
+blockquote footer,
+blockquote small {
+    display: block;
+    font-size: 80%;
+    line-height: 1.42857143;
+    color: #555;
+}
+
+.media:first-child {
+    margin: 0 0 10px;
+}
+
+.container-wrapper--light-grey {
+    background-color: #999;
+}
+
+/*features*/
+
+.container-wrapper--grey {
+    background-color: #333;
+    color: #999;
+}
+
+.feature p {
+    margin: 15px 0;
+}
+
+div .feature {
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
+
+
+/*favourites table*/
+.monthlyFavourites {
+    margin-top: 20px;
+}

@@ -1,0 +1,41 @@
+.navbar {
+    margin-bottom: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1;
+    background-color: transparent;
+    border: 0;
+
+   .navbar-brand {
+    font-weight: bold;
+    color: $primary-brand;
+   }
+}
+
+.navbar .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav>li>a:hover {
+    color: white;
+}
+
+/*navbarcollapse*/
+
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    color: white;
+    background: transparent;
+}
+
