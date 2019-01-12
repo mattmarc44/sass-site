@@ -1,10 +1,7 @@
-/* line 1, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
 body {
-  font-family: 'Staatliches', cursive;
-}
+  font-family: 'Staatliches', cursive; }
 
 /*nav*/
-/* line 1, C:/Users/matth/Documents/learning programming/sass/SCSS/_navbar.scss */
 .navbar {
   margin-bottom: 0;
   position: absolute;
@@ -13,46 +10,31 @@ body {
   width: 100%;
   z-index: 1;
   background-color: transparent;
-  border: 0;
-}
+  border: 0; }
+  .navbar .navbar-brand {
+    font-weight: bold;
+    color: #edc; }
 
-/* line 11, C:/Users/matth/Documents/learning programming/sass/SCSS/_navbar.scss */
-.navbar .navbar-brand {
-  font-weight: bold;
-  color: #edc;
-}
-
-/* line 17, C:/Users/matth/Documents/learning programming/sass/SCSS/_navbar.scss */
 .navbar .navbar-brand:hover {
-  color: white;
-}
+  color: white; }
 
-/* line 21, C:/Users/matth/Documents/learning programming/sass/SCSS/_navbar.scss */
 .navbar-default .navbar-nav > li > a:hover {
-  color: white;
-}
+  color: white; }
 
 /*navbarcollapse*/
-/* line 27, C:/Users/matth/Documents/learning programming/sass/SCSS/_navbar.scss */
 .navbar-default .navbar-toggle {
-  border-color: transparent;
-}
+  border-color: transparent; }
 
-/* line 31, C:/Users/matth/Documents/learning programming/sass/SCSS/_navbar.scss */
 .navbar-default .navbar-toggle .icon-bar {
-  background-color: #fff;
-}
+  background-color: #fff; }
 
-/* line 35, C:/Users/matth/Documents/learning programming/sass/SCSS/_navbar.scss */
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
   color: white;
-  background: transparent;
-}
+  background: transparent; }
 
 /*callout*/
-/* line 14, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
 .callout-container {
   height: 100vh;
   background: url("../images/whiskey.jpg") no-repeat center center fixed;
@@ -62,133 +44,93 @@ body {
   background-size: cover;
   display: flex;
   align-items: center;
-  justify-content: center;
-}
+  justify-content: center; }
+  .callout-container p {
+    color: white; }
 
-/* line 27, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
 .jumbotron {
-  background-color: transparent;
-}
+  background-color: transparent; }
 
-/* line 31, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
 .jumbotron h1 {
   color: white;
   font-weight: bold;
-  margin-bottom: 30px;
-}
+  margin-bottom: 30px; }
 
-/* line 37, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
 .container {
   width: auto;
   margin: 0;
-  padding: 0;
-}
+  padding: 0; }
 
-/* line 43, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
-.callout p {
-  color: white;
-}
-
-/* line 47, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
 .btn-success {
   color: #fff;
   background-color: #555;
-  border-color: #333;
-}
+  border-color: #333; }
 
 /*sale alert*/
-/* line 56, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
 .container-fluid {
   /* padding-right: 15px; */
   /* padding-left: 15px; */
   margin-right: auto;
-  margin-left: auto;
-}
+  margin-left: auto; }
 
-/* line 63, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
 .col-xs-12 {
-  padding: 0 5vw;
-}
+  padding: 0 5vw; }
 
-/* line 67, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
+.alert {
+  padding: 15px;
+  margin-bottom: 20px; }
+
 .alert-warning {
   color: #a06d16;
   background-color: #090601;
-  border-color: transparent;
-}
+  border-color: transparent; }
 
-/* line 73, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
-.alert {
-  padding: 15px;
-  margin-bottom: 20px;
-}
-
-/* line 78, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
 .alert a {
   color: white;
-  text-decoration: none;
-}
+  text-decoration: none; }
 
 /*page headers*/
-/* line 86, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
 .page-header {
   padding-bottom: 9px;
   margin: 40px 0 20px;
   border-bottom: 4px solid;
-  text-align: center;
-}
+  text-align: center; }
 
 /*quotes*/
-/* line 95, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
 blockquote {
   padding: 10px 20px;
   margin: 0 0 20px;
   font-size: 17.5px;
-  border-left: none;
-}
+  border-left: none; }
 
-/* line 102, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
 blockquote .small,
 blockquote footer,
 blockquote small {
   display: block;
   font-size: 80%;
   line-height: 1.42857143;
-  color: #555;
-}
+  color: #555; }
 
-/* line 111, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
 .media:first-child {
-  margin: 0 0 10px;
-}
+  margin: 0 0 10px; }
 
-/* line 115, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
 .container-wrapper--light-grey {
-  background-color: #999;
-}
+  background-color: #999; }
 
 /*features*/
-/* line 121, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
 .container-wrapper--grey {
   background-color: #333;
-  color: #999;
-}
+  color: #999; }
 
-/* line 126, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
 .feature p {
-  margin: 15px 0;
-}
+  margin: 15px 0; }
 
-/* line 130, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
 div .feature {
   margin-top: 20px;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
 /*favourites table*/
-/* line 137, C:/Users/matth/Documents/learning programming/sass/SCSS/style.scss */
 .monthlyFavourites {
-  margin-top: 20px;
-}
+  margin-top: 20px; }
 
-/*# sourceMappingURL=../CSS/style.map */
+/*# sourceMappingURL=style.css.map */
